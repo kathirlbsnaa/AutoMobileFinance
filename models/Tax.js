@@ -10,7 +10,7 @@ const TaxSchema = new mongoose.Schema({
   businessExpence:{
     type:String,
     required:true          
-  },
+  },      
   deductions:{
     type:String,
     required:true
