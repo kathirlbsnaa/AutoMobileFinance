@@ -9,9 +9,9 @@ const bodyParser = require('body-parser')
 
 const app = express();
                             
-require("dotenv").config()
+require("dotenv").config()                        
 
-// Passport Config
+// Passport Config                                
 require('./config/passport')(passport);
 
 
