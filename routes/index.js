@@ -7,7 +7,7 @@ const indexController = require("../controller/indexController")
 router.get('/', forwardAuthenticated, (req, res) => res.render('welcome'));               
            
 // Dashboard
-router
+router                                     
       .get('/home', ensureAuthenticated,indexController.getHome);
 
 module.exports = router;
